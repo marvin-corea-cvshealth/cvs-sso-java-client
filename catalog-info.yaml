@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cvs-sso-java-client
+  description: A Java library for communicating with the Twilio API and generating TwiML.
+  tags: 
+    - java
+    - sso
+    - client
+  annotations:
+    github.com/project-slug: marvin-corea-cvshealth/cvs-sso-java-client
+spec:
+  type: sso
+  lifecycle: dev
+  owner: devsecops
+  system: java
