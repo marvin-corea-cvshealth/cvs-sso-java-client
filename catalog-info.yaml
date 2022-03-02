@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: cvs-sso-java-client
+  title: Java SSO Client
   description: A Java library for CVS SSO.
   tags: 
     - java
@@ -10,7 +11,7 @@ metadata:
   annotations:
     github.com/project-slug: marvin-corea-cvshealth/cvs-sso-java-client
 spec:
-  type: sso
-  lifecycle: dev
+  type: library
+  lifecycle: experimental
   owner: devsecops
-  system: java
+  system: sso
